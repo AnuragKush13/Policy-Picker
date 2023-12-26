@@ -27,12 +27,47 @@
                         <p>Repair Type: Agency</p>
                     </div>
                     <div class="details-sum-insured">
+                        <button onclick="myFunction()" class="dropbtn">Sum Insured:  <p class = "sum-value">86,000.00</p></button>
+                        
                        
-                        <p>Sum Insured:</p>
-                        <p class = "sum-value">86,000.00</p>
+                        <div id="myDropdown" class="dropdown-content">
+                           <table class = "sum-insured-table">
+                            <tr><Td >First Year</Td><td class="sum-val-drop">86000.00</td></tr>
+                            <tr><Td>Second Year</Td><td class="sum-val-drop">70520.00</td></tr>
+                            <tr><Td>Third Year</Td><td class="sum-val-drop">57826.00</td></tr>
+                            <tr><Td>Fourth Year</Td><td class="sum-val-drop">47417.00</td></tr>
+                            <tr><Td>Fifth Year</Td><td class="sum-val-drop">38882.00</td></tr>
+                           </table>
+                          </div>
                     </div>
                 
             </div>
+
+           
+              
+              <script>
+              
+              function myFunction() {
+                document.getElementById("myDropdown").classList.toggle("show");
+              }
+              
+              
+              window.onclick = function(event) {
+                if (!event.target.matches('.dropbtn')) {
+                  var dropdowns = document.getElementsByClassName("dropdown-content");
+                  var i;
+                  for (i = 0; i < dropdowns.length; i++) {
+                    var openDropdown = dropdowns[i];
+                    if (openDropdown.classList.contains('show')) {
+                      openDropdown.classList.remove('show');
+                    }
+                  }
+                }
+              }
+              </script>
+            
+            
+            
 
             <div class="available-label">
                 <h3>Available Policy plan</h3>

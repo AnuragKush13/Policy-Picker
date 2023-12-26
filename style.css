@@ -57,7 +57,7 @@ nav .logo{
     border-radius: 5px;
 }
 
-.details-sum-insured{
+/* .details-sum-insured{
     display: flex;
     background-color: rgba(167, 189, 214, 0.734);
     height: 40px;
@@ -69,7 +69,7 @@ nav .logo{
     border-radius: 2px;
     
     padding-left: 10px;
-}
+} */
 .sum-value{
     padding:5px;
     
@@ -291,3 +291,82 @@ li{
     border-width: 0.5px;
 }
 
+
+
+
+.dropbtn {
+    display: flex;
+    background-color: rgba(167, 189, 214, 0.734);
+    height: 40px;
+    width: 200px;
+    font-size: 14px;
+    font-weight: bold;
+    color: rgb(0, 0, 0);
+    align-items: center;
+    border-radius: 2px;
+    
+    padding-left: 10px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .dropbtn:hover{
+    background-color: #8bbddec4;
+  }
+  
+   .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    width: 200px;
+    border-radius: 5px;
+    margin-top: 10px;
+    
+    background-color: #ffffff;
+    min-width: 160px;
+    overflow: auto;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  .dropdown a:hover {background-color: #ddd;}
+  
+  .show {display: block;} 
+
+.sum-insured-table {
+    
+    font-size: 14px;
+    padding: 2px;
+}
+td{
+    border:solid;
+    border-width:0px 0.5px 0.5px 0px;
+    width:150px;
+    font-size: 14px;
+    font-weight: lighter;
+    color: grey;
+    padding: 3px;
+}
+
+
+.sum-val-drop{
+    /* width: 100%; */
+    border:solid;
+    padding: 3px;
+    border-width:0px 0px 0.5px 0px;
+    color: black;
+    width:150px;
+    font-weight: bold;
+    text-align: right;
+}
