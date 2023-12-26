@@ -1,0 +1,293 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+}
+.container{
+    width: 100%;
+    min-height: 100vh;
+    background-color: rgb(236, 236, 236);
+}
+nav{
+    display:flex;
+    align-items: center;
+    justify-content: left;
+    background-color: rgb(39, 124, 124);
+    padding-left: 10px;
+    color:white;
+    font-size: 14px;
+    font-weight: bold;
+}
+nav .logo{
+    width: 50px;
+    height: 50px;
+    margin: 10px;
+    border-radius: 5px;
+}
+.cust-detail{
+    /* background-color: rgb(72, 39, 39); */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-right: 50px;
+    padding: 20px;
+    height: 60px;
+    width:100%;
+   
+}
+
+
+.details-tab{
+    display: flex;
+    background-color: white;
+    height: 40px;
+    width: 200px;
+    font-size: 14px;
+    color: grey;
+    align-items: center;
+    border-radius: 5px;
+    padding-right: 10px;
+    
+}
+.details-tab .tab-logo{
+    width: 30px;
+    height: 30px;
+    margin: 10px;
+    border-radius: 5px;
+}
+
+.details-sum-insured{
+    display: flex;
+    background-color: rgba(167, 189, 214, 0.734);
+    height: 40px;
+    width: 200px;
+    font-size: 14px;
+    font-weight: bold;
+    color: rgb(0, 0, 0);
+    align-items: center;
+    border-radius: 2px;
+    
+    padding-left: 10px;
+}
+.sum-value{
+    padding:5px;
+    
+    font-size: 14px;
+    font-weight: bold;
+    color: rgb(69, 115, 148);
+}
+
+.available-label{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 10px;
+    padding: 10px;
+}
+
+.alert-div{
+    background-color: rgba(215, 157, 157, 0.636);
+    padding: 8px 10px;
+    font-size: 14px;
+    color: black;
+    border-radius: 5px;
+    margin:  0px 20px;
+}
+
+.insurance-container{
+    
+    margin: 10px 20px;
+    margin-bottom: 20px;
+    
+    display: flex;
+    border-radius: 5px;
+    background-color: white;
+    height: 300px;
+    justify-content: space-evenly;
+    
+}
+
+.insurance-logo{
+    /* border-width: thin; */
+    /* background-color: rgb(202, 194, 194); */
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    
+    height: 300px;
+    width: 100px;
+    
+    /* border-color: rgb(42, 22, 22); */
+}
+.insurance-logo-img{
+    
+    width: 80px;
+    height: 80px;
+    margin: 10px;
+    border-radius: 5px;
+}
+
+.insurance-coverage{
+    /* background-color: rgb(199, 181, 181); */
+    width: 100%;
+    /* padding: 10px; */
+    border-style:none solid none solid;
+    border-color: gray;
+    border-width: 0.5px;
+}
+
+.coverage-header-div{
+    /* margin-top: 10px; */
+    padding: 5px 10px;
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+    border-style:none none solid none;
+    border-color: gray;
+    border-width: 0.5px;
+}
+
+.show-all-tab{
+    display: flex;
+    justify-content: right;
+    /* background-color: rgb(182, 182, 182); */
+
+    height: 40px;
+    width: 120px;
+    font-size: 14px;
+    color: teal;
+    align-items: center;
+    border-radius: 5px;
+    padding-right: 0px;
+   
+}
+.show-all-tab .tab-logo{
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+    border-radius: 5px;
+}
+
+.coverage-internal-div{
+    /* margin-top: 10px; */
+    display: flex;
+    width: 100%;
+}
+.left-coverage-div{
+/* background-color: pink; */
+padding: 10px;
+margin-left: 20px;
+margin-right: 20px;
+width: 100%;
+height: 250px;
+border-style:none solid none none;
+    border-color: gray;
+    border-width: 0.5px;
+
+}
+.right-coverage-div{
+/* background-color:purple; */
+width:100%;
+padding: 10px;
+}
+
+
+.insurance-price{
+    /* padding:10px; */
+    
+    background-color: rgb(255, 255, 255);
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    align-items: center;
+    text-align: center;
+    
+    width: 250px;
+    
+}
+
+
+ul{
+    list-style-type: none;  
+    padding-top: 10px;
+}
+li{
+    padding-bottom: 10px;
+}
+.tile-tag{
+    background-color: teal;
+    color: white;
+    border-radius: 12px;
+    height: 30px;
+    width: 45px;
+    text-align: center;
+    font-size: 12px;
+    padding: 8px;
+    justify-content: center;
+    margin-bottom: 5px;
+    
+}
+
+.deductible{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    margin-left: 50px;
+    width: 100px;
+}
+
+.question-tool{
+    background-color: TEAL;
+    font-size: 12px;
+    border-radius: 10px;
+    height: 18px;
+    width: 18px;
+    border: none;
+    color: white;
+}
+#deductible-price{
+    width: 150px;
+    height: 30px;
+    border-radius: 5px;
+    border: none;
+    
+    margin-bottom: 20px;
+    background-color: rgb(248, 242, 242);
+    padding: 5px;
+}
+
+.price-text{
+    font-size: 18px;
+    font-weight: bold;
+    
+    margin-bottom: 10px;
+}
+.price-add-text{
+    font-size: 15px;
+    margin-bottom: 50px;
+}
+
+.btn{
+    background-color: teal;
+    color: white;
+    border-radius: 5px;
+    height: 40px;
+    width: 150px;
+    text-align: center;
+    font-size: 14px;
+    font-weight: normal;
+    padding: 5px;
+    border: none;
+    justify-content: center;
+    
+}
+
+.price-header{
+
+    border-style:none none solid none;
+    padding: 16px;
+    border-color: gray;
+    border-width: 0.5px;
+}
+
